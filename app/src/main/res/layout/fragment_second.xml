@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!-- Botón que cubre toda la pantalla -->
+    <Button
+        android:id="@+id/buttonSecond"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Mantén presionado para hablar"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:background="@color/teal_700"
+        android:gravity="center" />
+
+</RelativeLayout>
